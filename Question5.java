@@ -63,7 +63,6 @@ public class Question5
       }
     }
    ;
-    System.out.println(Max);
     System.out.println(OrderedNumberList.get( CountNumberList.indexOf(Max)));
 
   }
