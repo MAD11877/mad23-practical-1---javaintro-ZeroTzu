@@ -13,7 +13,8 @@ public class Question3
     Scanner in = new Scanner(System.in);
     int number=in.nextInt();
     double number2= Math.pow(number,2);
-    System.out.println(number2);
+    int answer = (int) number2;
+    System.out.println(answer);
     
   }
 }
