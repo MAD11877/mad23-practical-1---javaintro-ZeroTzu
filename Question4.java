@@ -17,7 +17,6 @@ public class Question4 {
      */
 
     Scanner in = new Scanner(System.in);
-    System.out.println("Enter Number: ");
     int number = in.nextInt();
     int number2 = number;
     int i = 0;
@@ -27,7 +26,10 @@ public class Question4 {
       }
       i += 1;
       number -= 1;
-      System.out.println();
+      if(i!=number2){
+        System.out.println();
+      }
+      
     }
 
   }
